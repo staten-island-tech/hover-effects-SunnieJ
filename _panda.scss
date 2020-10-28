@@ -5,3 +5,9 @@
   transition: all 0.3s;
   border-radius: 50%;
 }
+
+.panda:hover {
+  border-radius: 1rem;
+  filter: sepia(50%);
+  transform: scale(1.3);
+}
