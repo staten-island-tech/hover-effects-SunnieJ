@@ -1,15 +1,23 @@
 @import "_variables.scss";
 
 .text-effect {
-  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg);
   background-position: center;
-  color: transparent;
+  color: #c4c4c4;
   font-size: 8rem;
-  background-clip: text;
   transition: all 0.3s;
+  opacity: 0.5;
+  position: relative;
+  font-weight: 800;
+  background-image: url(https://images.pexels.com/photos/1998479/pexels-photo-1998479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
 }
 
 .text-effect:hover {
-  transform: skewY(-10deg);
+  opacity: 1;
   letter-spacing: 3rem;
+  background-position: 0 100%;
 }

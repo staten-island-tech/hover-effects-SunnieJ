@@ -8,7 +8,7 @@
 .explore-picture {
   height: 30rem;
   clip-path: circle();
-  transition: all 0.3s;
+  transition: all 1s;
 }
 
 .explore-header {
@@ -21,10 +21,12 @@
   transform: translate(-50%, -50%);
   transition: 0.3s;
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 .explore:hover .explore-picture {
   filter: grayscale(80%);
+  transform: skewY(-10deg);
 }
 
 .explore:hover .explore-header {

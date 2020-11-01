@@ -3,11 +3,11 @@
 .panda {
   height: 20rem;
   transition: all 0.3s;
-  border-radius: 50%;
+  border-radius: 1rem;
 }
 
 .panda:hover {
-  border-radius: 1rem;
+  border-radius: 50%;
   filter: sepia(50%);
-  transform: scale(1.3);
+  transform: scale(0.8);
 }
